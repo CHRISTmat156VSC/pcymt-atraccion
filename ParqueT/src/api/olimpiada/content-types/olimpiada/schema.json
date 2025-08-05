@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "olimpiadas",
+  "info": {
+    "singularName": "olimpiada",
+    "pluralName": "olimpiadas",
+    "displayName": "Olimpiada"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Imagen": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

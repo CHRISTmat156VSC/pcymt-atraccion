@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "normas",
+  "info": {
+    "singularName": "norma",
+    "pluralName": "normas",
+    "displayName": "Norma"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "text"
+    },
+    "Imagen1": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Imagen2": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

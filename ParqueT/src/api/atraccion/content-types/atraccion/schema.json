@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "atraccions",
+  "info": {
+    "singularName": "atraccion",
+    "pluralName": "atraccions",
+    "displayName": "Atraccion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "text"
+    },
+    "Descripcion": {
+      "type": "text"
+    },
+    "Enlace": {
+      "type": "text"
+    }
+  }
+}

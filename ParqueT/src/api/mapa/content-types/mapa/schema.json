@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mapas",
+  "info": {
+    "singularName": "mapa",
+    "pluralName": "mapas",
+    "displayName": "mapa"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "text"
+    },
+    "Imagen": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
